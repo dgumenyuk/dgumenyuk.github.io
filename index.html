@@ -27,6 +27,8 @@
     <!-- github acitivity css -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -79,9 +81,9 @@
                     <li><a href="https://twitter.com/dmytro_humeniuk" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>                   
                     <li><a href="https://www.linkedin.com/in/dmytro-humeniuk-53a107170/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                     <li><a href="https://scholar.google.ca/citations?hl=en&user=vy8mvtkAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
-                    <li class="last-item"><a href="assets/data/CV_Humeniuk_29-08-2025.pdf" target="_blank"><i class="ai ai-cv"></i></a></li>                                                       
+                    <li class="last-item"><a href="assets/data/CV_Humeniuk_Eng.pdf" target="_blank"><i class="ai ai-cv"></i></a></li>                                                       
                 </ul> 
-            </div><!--//profile-->
+            </div><!--//profileassets/data/CV_Humeniuk_29-08-2025.pdf-->
             <a class="btn btn-cta-primary pull-right" href="mailto:gumenyuk98@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
     </header><!--//header-->
@@ -91,10 +93,10 @@
             <div class="primary col-md-8 col-sm-12 col-xs-12">
                 <section class="about section">
                     <div class="section-inner">
-                        <h2 id="About" class="heading">About Me</h2>
+                        <h2 id="About" class="heading" >About Me</h2>
                         <div class="content">
                             <p> PhD candidate in Computer Engineering, specializing in the development of AI-driven robotic systems, with graduation 
-                                expected in summer 2025. Strong background in programming, numerical methods, and machine learning, including 
+                                expected in winter 2025-2026. Strong background in programming, numerical methods, and machine learning, including 
                                 deep learning and reinforcement learning. Expertise in advanced simulation-based testing and validation of robotic 
                                 systems. Experienced in developing autonomous robotic systems using NVIDIA Isaac Sim and ROS 2, including robotic 
                                 manipulators with vision-based perception.
@@ -105,28 +107,73 @@
                 </section><!--//section-->
     
                
-                
                 <section class="projects section">
                     <div class="section-inner">
-                        <h2 id= "Projects" class="heading">Projects</h2>
-                        <h3 class="heading">On-going Projects</h3>
+                        <h2 id= "Projects" class="heading">Selected Projects</h2>
+                           <!--<h3 class="heading">On-going Projects</h3>//item-->
+
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">QA-enhanced development of intelligent robotic manipulators in Isaac Sim</h3>
-                                <p class="summary">In collaboration with <a href="https://www.sycodal.ca/fr/" target="_blank">Sycodal</a>, in this project we develop reliable and robust robotic manipulators containing ML components. 
-                                    The approach is implemented in the NVIDIA <a href="https://developer.nvidia.com/isaac-sim" target="_blank">Isaac Sim</a> simulation environment.
-                                </p>
+                                <h2 class="title">AmbieGen</h2>
+                                <p class="summary"> AmbieGen is a flexible and modular framework for automated scenario-based testing of autonomous robotic systems. 
+                                    It leverages evolutionary search algorithms and machine learning to generate and evolve test scenarios that expose weaknesses and critical failures in the system under test.
+                                It is designed to be easily extensible, allowing researchers and practitioners to incorporate their own testing strategies and domain knowledge. It can be easily installed with: <code>pip install ambiegen</code>.</p>
+                                <p><a class="more-link" href="https://ambiegen.readthedocs.io/en/latest/" target="_blank"><i class="fa-regular fa-file-lines"></i> Documentation</a> &nbsp; 
+                                <a class="more-link" href="https://github.com/swat-lab-optimization/ambiegen" target="_blank"><i class="fa-solid fa-code"></i> Code</a>
+
+                            </p>   
                                 <div style="text-align: center;">
-                                    <img src="assets\images\sycodal.jpg" alt="Image Description" width="300" >
+                                    <img src="assets\images\logo_ambiegen2.png" alt="Image Description" width="400" class="responsive-img">
                                 </div>
-                                
-                            </div><!--//item-->
+
+                            <!-- </div>//item-->
+                        </div><!--//content-->
+
+
+                        <div class="content">
+                            <div class="item">
+                                <h2 class="title">QA-enhanced development of intelligent robotic manipulators in Isaac Sim</h2>
+                                <p class="summary">In collaboration with <a href="https://www.sycodal.ca/fr/" target="_blank">Sycodal</a>, in this project we develop reliable and robust robotic manipulators containing ML components. 
+                                We propose MARTENS approach (Manipulator Robot Testing and Enhancement in Simulation) implemented in the NVIDIA <a href="https://developer.nvidia.com/isaac-sim" target="_blank">Isaac Sim</a> simulation environment.
+                                The approach was published and presented at <a href="https://www.linkedin.com/posts/dmytro-humeniuk-53a107170_ase2024-computervision-robotics-activity-7259973682091978753-UxUi?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYPj4B4uAS3-b_mBSUT3ISB3mHuPatyAY" target="_blank">ASE 2024 conference</a>. </p>
+                                </p>
+                                <p><a class="more-link" href="https://dl.acm.org/doi/abs/10.1145/3691620.3695281" target="_blank"><i class="fa-regular fa-file-lines"></i> Paper</a> &nbsp; </p>    
+                                <div style="text-align: center;">
+                                    <img src="assets\images\martens.png" alt="Image Description" width="800" class="responsive-img">
+                                </div>
+                                <div style="text-align: center;">
+                                    <img src="assets\images\uc2_demo.gif" alt="Image Description" width="400" class="responsive-img">
+                                </div>
+
+                            <!-- </div>//item-->
+                        </div><!--//content-->
+
+
+                        <div class="content">
+                            <div class="item">
+                                <h2 class="title">Representation Improvement in Latent Space for Search-Based Testing of Autonomous Robotic Systems</h2>
+                                <p class="summary">We propose RILaST (Representation Improvement in Latent Space for Search-Based Testing) approach, 
+                                    which enhances test representation by mapping it to the latent space of a variational autoencoder. 
+                                    We evaluate RILaST on two use cases, including autonomous drone and autonomous lane-keeping assist system. Images below
+                                illustrate how the test represented in a latent space changes by changing one of the latent variables.
+                                </p>
+                                <p><a class="more-link" href="https://arxiv.org/abs/2503.20642" target="_blank"><i class="fa-regular fa-file-lines"></i> Paper</a> &nbsp; 
+                                <a class="more-link" href="https://github.com/swat-lab-optimization/RILaST/tree/main" target="_blank"><i class="fa-solid fa-code"></i> Code</a></p> 
+                                <div style="text-align: center;">
+                                    <img src="assets\images\rilast.png" alt="Image Description" width="450" class="responsive-img">
+                                </div>
+                                <div class="image-row">
+                                <img src="assets/images/output_ads.gif" alt="Image 1" class="responsive-img">
+                                <img src="assets/images/output_uav.gif" alt="Image 2" class="responsive-img" >
+                                </div>
+
+                            <!-- </div>//item-->
                         </div><!--//content-->
                         
-                        <h3 class="heading">Completed Projects</h3>
+                        <!-- <h3 class="heading">Completed Projects</h3>-->
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Combining Reinforcement learning and Evolutionary search for generating test scenes</h3>
+                                <h3 class="title">Reinforcement Learning Informed Evolutionary Search for Autonomous Systems Testing</h3>
                                 <p>
                                     <i>Co-authors:</i>
                                     <a href="http://khomh.net/" target="_blank"><i>Prof. Khomh</i></a>, 
@@ -136,6 +183,9 @@
                                      We condunct experiments on the RL-controlled robotic ant as well as on an autonomous vehicle lane-keeping assist system. </p>
                                 <p><a class="more-link" href="https://arxiv.org/abs/2308.12762" target="_blank"><i class="fa-regular fa-file-lines"></i> Paper</a> &nbsp; 
                                 <a class="more-link" href="https://github.com/swat-lab-optimization/RIGAA_tool" target="_blank"><i class="fa-solid fa-code"></i> Code</a></p>
+                                <div style="text-align: center;">
+                                    <img src="assets\images\rigaa_diagram.png" alt="Image Description" width="650" class="responsive-img">
+                                </div>
                                 <div style="text-align: center;">
                                     <a href="https://youtu.be/eS25h7iLA1Q" target="_blank"> <img src="assets\images\rigaa_rob.png" alt="Image Description" width="280" > </a> &nbsp;
                                     <a href="https://youtu.be/zaTSuFrVrhw" target="_blank"> <img src="assets\images\rigaa_veh.jpg" alt="Image Description" width="260" > </a> &nbsp;
@@ -196,7 +246,7 @@
 
                             
                         </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                     <!-- </div>//section-inner-->                 
                 </section><!--//section-->
 
 
@@ -205,8 +255,17 @@
                         <h2 id="Publications" class="heading">Selected publications</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><a href="https://arxiv.org/abs/2308.12762" target="_blank">Reinforcement Learning Informed Evolutionary Search for Autonomous Systems Testing</a></h3>
-                                <p class="summary">Humeniuk, Dmytro, Foutse Khomh, and Giuliano Antoniol. "Reinforcement learning informed evolutionary search for autonomous systems testing." arXiv preprint arXiv:2308.12762 (2023).</p>
+                                <h3 class="title"><a href="https://arxiv.org/abs/2503.20642" target="_blank">Representation Improvement in Latent Space for Search-Based Testing of Autonomous Robotic Systems</a></h3>
+                                <p class="summary">Humeniuk, Dmytro, Foutse Khomh. "Representation Improvement in Latent Space for Search-Based Testing of Autonomous Robotic Systems." Submitted to ACM Trans. Softw. Eng. Methodol.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3680468" target="_blank">In-Simulation Testing of Deep Learning Vision Models in Autonomous Robotic Manipulators</a></h3>
+                                <p class="summary">Dmytro Humeniuk, Houssem Ben Braiek, Thomas Reid, and Foutse Khomh. 2024. In-Simulation Testing of Deep Learning Vision Models in Autonomous Robotic Manipulators. In Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE '24). 
+                                    Association for Computing Machinery, New York, NY, USA, 2187–2198. https://doi.org/10.1145/3691620.3695281.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3680468" target="_blank">Reinforcement Learning Informed Evolutionary Search for Autonomous Systems Testing</a></h3>
+                                <p class="summary">Humeniuk, Dmytro, Foutse Khomh, and Giuliano Antoniol. "Reinforcement learning informed evolutionary search for autonomous systems testing." ACM Trans. Softw. Eng. Methodol. 33, 8, Article 216 (November 2024), 45 pages. https://doi.org/10.1145/3680468.</p>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><a href="https://www.sciencedirect.com/science/article/pii/S0167642323000722" target="_blank">AmbieGen: A search-based framework for autonomous systems testing</a> </h3>
@@ -230,7 +289,7 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Montreal, Canada</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">dmytro.humeniuk@polymtl.ca</a></li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">gumenyuk98@gmail.com</a></li>
                                 <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">https://dgumenyuk.github.io/</a></li>
                             </ul>
                         </div><!--//content-->  
@@ -239,11 +298,21 @@
                 
 
                 
-                <aside class="list music aside section">
+                <aside class="list music aside section" >
                     <div class="section-inner">
                         <h3 id="News"> News</h3>
                         <div class="articles" >
                         <ul>
+                            <li><span class="date">June-2025: </span> I gave a tutorial on search-based testing at SEMLA 2025 symposium <a href="assets\data\Tutorial-AmbieGen.pdf" target="_blank"> Slides</a>.</li>
+                            <li><span class="date">May-2025: </span> We completed a robotic arm digital twin project as part of the Digital Twins Engineering course. <a href="https://youtu.be/xF0SzGU1vgw?si=bF10EDPd4darZWdl" target="_blank"> Demo</a>.</li>
+                            <li><span class="date">April-2025: </span> I participated as a program committee member at the SBFT 2025 workshop co-located with ICSE 2025 in Ottawa <a href="https://www.linkedin.com/posts/dmytro-humeniuk-53a107170_sbft-icse2025-activity-7323743404025122818-FYRg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYPj4B4uAS3-b_mBSUT3ISB3mHuPatyAY" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><span class="date">March-2025: </span> Our paper on representation improvement is available online <a href="https://arxiv.org/abs/2503.20642" target="_blank"><i class="ai ai-arxiv"></i>.</a></li>
+                            <li><span class="date">January-2025: </span> I am part of the orginizing committee of the UAV testing competition 2025. <a href="https://www.linkedin.com/posts/tahereh-zohdinasab-8458b191_icst-2025-activity-7263176154713395200-3ONi?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYPj4B4uAS3-b_mBSUT3ISB3mHuPatyAY" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><span class="date">November-2024: </span> Our industrial collaboration paper with Sycodal is <a href="https://dl.acm.org/doi/abs/10.1145/3691620.3695281" target="_blank"> published online</a> and I presented it at ASE 2025 in Sacramento. <a href="https://www.linkedin.com/posts/dmytro-humeniuk-53a107170_ase2024-computervision-robotics-activity-7259973682091978753-UxUi?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYPj4B4uAS3-b_mBSUT3ISB3mHuPatyAY" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><span class="date">May-2024: </span>  I was awarded International Student Excellence Scholarship (PBEE) ! <a href="https://www.linkedin.com/posts/dmytro-humeniuk-53a107170_frqcommunity-communautaezfrq-activity-7209981831629172736-e3jc?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYPj4B4uAS3-b_mBSUT3ISB3mHuPatyAY" target="_blank"><i class="fa-brands fa-linkedin"></i></a>.</li>
+                            <li><span class="date">April-2024: </span> I participated in <a href="https://conf.researchr.org/home/icse-2024" target="_blank"> ICSE 2024</a> and presented our two tools at SBFT 2024 workshop, where we gained the second place! <a href="https://x.com/dmytro_humeniuk/status/1780149893325054015?s=46&t=w28qXRPk6uH_5kzJvj0kag" target="_blank"><i class="fa-brands fa-x-twitter"></i>.</a> </li>
+                            <li><span class="date">March-2024: </span> I presented at <a href="https://ivado.ca/wp-content/uploads/2024/03/Programme-FN2024.pdf" target="_blank"> IVADO Digital Futures 2024</a></li>
+                            <li><span class="date">January-2024: </span> We submitted tools to two competitions at the <a href="https://sbft24.github.io/tools/" target="_blank"> SBFT 2024 workshop</a></li>
                             <li><span class="date">August-2023: </span> Our paper on RL assisted genetic algorithm is available online <a href="https://arxiv.org/abs/2308.12762" target="_blank"><i class="ai ai-arxiv"></i>.</a></li>
                             <li><span class="date">July-2023: </span>  I have presented our work at BMW 2023 summer school <a href="https://www.linkedin.com/feed/update/urn:li:activity:7082744259157659649?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa-brands fa-linkedin"></i></a>.</li>
                             <li><span class="date">June-2023: </span>  Our paper describing the AmbieGen test generating tool is  <a href="https://www.sciencedirect.com/science/article/pii/S0167642323000722" target="_blank"> published</a>.</li>

@@ -8,10 +8,13 @@
 */
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  /* font-family: 'Lato', arial, sans-serif; */
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
   color: #434343;
   background: #dae3e7;
-  font-size: 16px;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,6 +28,9 @@ h6 {
   font-weight: 700;
   color: #778492;
 }
+/* .title {
+  font-size: 58px;
+} */
 a {
   color: #3aaa64;
   -webkit-transition: all 0.4s ease-in-out;
@@ -171,6 +177,28 @@ iframe {
   margin-left: auto; /* Center the image horizontally */
   margin-right: auto; /* Center the image horizontally */
 }
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px; /* optional, gives soft corners */
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.image-row img {
+  max-width: 45%;
+  /* height: auto; */
+  width: 300px;
+  border-radius: 8px; /* optional */
+}
+
 
 .project-image2{
   width: 400px; /* Set the desired width */
@@ -226,7 +254,7 @@ iframe {
   margin-top: 0;
   margin-bottom: 30px;
   color: #545e69;
-  font-size: 24px;
+  font-size: 32px;
 }
 .section .content .more-link .fa{
   margin-right: 5px;
@@ -325,12 +353,37 @@ iframe {
 .latest .featured-image .ribbon .text:after {
   right: 0;
 }
+
+
+aside.list.music {
+    height: auto;
+    max-height: none;
+    width: 500px;
+    overflow-y: visible;
+}
+
+
+/* Allow inner containers to grow naturally */
+/* aside.list.music .section-inner {
+    height: auto;
+    min-height: 1000px;
+    max-height: none;
+    width: 500px;
+    overflow-y: visible;
+} */
+
+/* Disable clipping/scroll inside the articles container */
+aside.list.music .articles {
+    height: auto !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+}
 /* Projects Section */
 .projects .item {
   margin-bottom: 30px;
 }
 .projects .item .title {
-  font-size: 16px;
+  font-size: 24px;
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.5;
